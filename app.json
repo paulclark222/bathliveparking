@@ -2,7 +2,7 @@
     /**
      * The application's namespace, used by Sencha Command to generate classes
      */
-    "name": "BathLiveParking",
+    "name": "Bath Live Car Park Spaces",
 
     /**
      * The file path to this application's front HTML document, relative to this app.json file
@@ -151,7 +151,7 @@
 				"config": {
 					"platform": "android",
 					"id": "paul.soft.BathLiveParking",
-					"name": "BathLiveParking"
+					"name": "Bath Live Car Park Spaces"
 				}
 			}
 		}
