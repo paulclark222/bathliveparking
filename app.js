@@ -22,7 +22,7 @@ Ext.application({
 	],
 	
     controllers: [
-        'ParkingMap', 'CarParkDetails'
+        'ParkingMap', 'CarPark'
     ],
 	
 	models: [

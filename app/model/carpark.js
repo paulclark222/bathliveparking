@@ -23,12 +23,18 @@ Ext.define('BathLiveParking.model.CarPark', {
 			
 			],
         proxy: {
-            type: 'rest',
-            url : 'getparkingdata',
-            reader: {
+            type: 'jsonp',
+            url: 'http://data.bathhacked.org/resource/u3w2-9yme.json',
+			callbackKey: '$jsonp',	
+            reader: {			
                 type: 'json',
                 rootProperty: ''
-            }
+            },
+			// remove paging querystring params which aren't supported by api
+			pageParam: false,
+			startParam: false,
+			limitParam: false,
+			noCache: false
         }
     }
 });

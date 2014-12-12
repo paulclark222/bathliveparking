@@ -3,6 +3,7 @@ Ext.define('BathLiveParking.view.ParkingMap', {
     xtype: 'parkingmap',
 	
     requires: [
+        'BathLiveParking.view.CarPark',
         'BathLiveParking.view.CarParkDetails',
 		'Ext.Map'
     ],
@@ -25,7 +26,7 @@ Ext.define('BathLiveParking.view.ParkingMap', {
 		items: [
 			{
 				xtype: 'map',
-				title: 'Bath Car Park Spaces',
+				title: 'Bath Live Parking',
 				mapOptions: {
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
 					zoom: 14

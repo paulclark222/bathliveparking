@@ -170,8 +170,8 @@ Ext.define('BathLiveParking.controller.ParkingMap', {
 			
 	onCarParkSelected: function(carParkData) {
 		this.getParkingMapNav().push({
-			xtype: 'carparkdetails',
-			title: carParkData.name,
+			xtype: 'carpark',
+			title: 'Information',
 			data: carParkData,
 			scrollable: true,
 			styleHtmlContent: true
