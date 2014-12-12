@@ -1,0 +1,26 @@
+// The following two lines import the default Sencha Touch theme. If you are building
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+// Custom code goes here..
+
+.carparklabel {
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border-color: grey;
+	padding: 2px;
+	color: white;
+	background-color: black;	
+	text-align: center;
+	min-width: 36px;     
+}
+
+// Examples of using the icon mixin:
+// @include icon('user');
