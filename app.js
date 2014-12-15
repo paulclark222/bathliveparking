@@ -52,11 +52,16 @@ Ext.application({
     },
 
     launch: function() {
-        // Destroy the #appLoadingIndicator element
-        Ext.fly('appLoadingIndicator').destroy();
+		//document.addEventListener("deviceready", function() {
+			// Destroy the #appLoadingIndicator element
+			Ext.fly('appLoadingIndicator').destroy();
 
-        // Initialize the main view
-        Ext.Viewport.add(Ext.create('BathLiveParking.view.ParkingMap'));
+			// Initialize the main view
+			//Ext.Viewport.add(
+			Ext.create('BathLiveParking.view.ParkingMap')
+			//);
+		
+		//}, true);      
     },
 
     onUpdated: function() {

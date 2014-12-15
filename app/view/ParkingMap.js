@@ -10,6 +10,7 @@ Ext.define('BathLiveParking.view.ParkingMap', {
 	
     config: {
 		autoDestroy: true,
+		fullscreen: true,
 		
 		navigationBar: {
             items: [
