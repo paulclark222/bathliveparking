@@ -5,7 +5,7 @@ Ext.define('BathLiveParking.view.CarPark', {
 		layout: 'vbox',
 		styleHtmlContent: false,
         scrollable: false,
-		
+		title: 'Details',
 		items: [
 			{
 				xtype: 'carparkdetails',
