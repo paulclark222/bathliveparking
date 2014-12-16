@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="paul.soft.BathLiveParking" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Bath Live Car Park Spaces</name>
+    <name>Bath Parking Spaces Live</name>
     <description>
         Displays major car parks in Bath, England on a map with how many spaces are currently available.
     </description>
@@ -22,7 +22,8 @@
     <preference name="show-splash-screen-spinner" value="false" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
-    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-minSdkVersion" value="7" />
+	<preference name="android-targetSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <!--gap:plugin name="org.apache.cordova.battery-status" /-->
     <!--gap:plugin name="org.apache.cordova.camera" /-->
