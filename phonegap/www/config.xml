@@ -43,16 +43,10 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <!--gap:plugin name="org.apache.cordova.splashscreen" /-->
     <!--gap:plugin name="org.apache.cordova.vibration" /-->
-    <icon src="icon.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
-    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+    <icon src="resources/icons/drawable-ldpi/Icon.png" />
     <access origin="*" />
-	<platform name="android">
-		<icon src="../../resources/icons/drawable-ldpi/Icon.png" density="ldpi" />
-		<icon src="../../resources/icons/drawable-mdpi/Icon.png" density="mdpi" />
-		<icon src="../../resources/icons/drawable-hdpi/Icon.png" density="hdpi" />
-		<icon src="../../resources/icons/drawable-xhdpi/Icon.png" density="xhdpi" />
-	</platform>
+    <icon gap:platform="android" gap:qualifier="ldpi" src="res/icon/drawable-ldpi/Icon.png" />
+    <icon gap:platform="android" gap:qualifier="mdpi" src="res/icon/drawable-mdpi/Icon.png" />
+    <icon gap:platform="android" gap:qualifier="hdpi" src="res/icon/drawable-hdpi/Icon.png" />
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="res/icon/drawable-xhdpi/Icon.png" />
 </widget>
