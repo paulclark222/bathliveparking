@@ -43,7 +43,7 @@
     <!--gap:plugin name="org.apache.cordova.network-information" /--> <!-- todo: use this info to determine connectivity and handle offline -->
     <!--gap:plugin name="org.apache.cordova.splashscreen" /-->
     <!--gap:plugin name="org.apache.cordova.vibration" /-->
-    <icon src="../../resources/icons/drawable-hdpi/Icon.png" />	 
+    <icon src="resources/icons/drawable-ldpi/Icon.png" />	 
     <icon gap:platform="android" gap:qualifier="ldpi" src="resources/icons/drawable-ldpi/Icon.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="resources/icons/drawable-mdpi/Icon.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="resources/icons/drawable-hdpi/Icon.png" />
