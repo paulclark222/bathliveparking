@@ -46,9 +46,9 @@
     <icon src="../../resources/icons/drawable-hdpi/Icon.png" />
     <access origin="*" />
 	<platform name="android">
-		<icon src="../../resources/icons/drawable-ldpi/Icon.png" density="ldpi" />
-		<icon src="../../resources/icons/drawable-mdpi/Icon.png" density="mdpi" />
-		<icon src="../../resources/icons/drawable-hdpi/Icon.png" density="hdpi" />
-		<icon src="../../resources/icons/drawable-xhdpi/Icon.png" density="xhdpi" />
+		<icon src="../resources/icons/drawable-ldpi/Icon.png" density="ldpi" />
+		<icon src="../resources/icons/drawable-mdpi/Icon.png" density="mdpi" />
+		<icon src="../resources/icons/drawable-hdpi/Icon.png" density="hdpi" />
+		<icon src="../resources/icons/drawable-xhdpi/Icon.png" density="xhdpi" />
 	</platform>
 </widget>
