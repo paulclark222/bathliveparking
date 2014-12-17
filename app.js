@@ -14,7 +14,7 @@ Ext.application({
     name: 'BathLiveParking',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox', 'Ext.MessageBox', 'Ext.Ajax'
     ],
 	
 	views: [
@@ -52,6 +52,13 @@ Ext.application({
     },
 
     launch: function() {
+		// display on any ajax errors  - may not work for JSONP
+		Ext.Ajax.on('requestexception', function (conn, response, options) {		
+			Ext.Viewport.setMasked(false);				
+			var data = Ext.decode(response.responseText);
+			Ext.Msg.alert('Exception', data.message);
+		});
+		
 		//document.addEventListener("deviceready", function() {
 			// Destroy the #appLoadingIndicator element
 			Ext.fly('appLoadingIndicator').destroy();
